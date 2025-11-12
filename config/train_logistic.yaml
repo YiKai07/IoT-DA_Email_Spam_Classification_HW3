@@ -1,0 +1,18 @@
+data:
+  csv: datasets/sms_spam_no_header.csv
+features:
+  vectorizer: tfidf
+  ngram_range: [1,1]
+  max_features: 5000
+preprocessing:
+  enabled: true
+  use_stopwords: true
+  stemmer: snowball
+  language: english
+training:
+  cv: 3
+  param_grid:
+    clf__C: [0.1, 1.0]
+output:
+  dir: models
+  model_name: logistic_best.joblib

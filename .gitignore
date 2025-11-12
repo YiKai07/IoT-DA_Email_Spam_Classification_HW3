@@ -1,0 +1,35 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+.env
+.ipynb_checkpoints/
+.vscode/
+*.egg-info/
+.python-version
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build
+build/
+dist/
+
+# Virtual envs commonly named
+.venv/
+ENV/
+
+# Ignore pip cache
+pip-wheel-metadata/
+
+# Pytest cache
+.pytest_cache/
